@@ -302,3 +302,29 @@ ol, ul { margin: 0; padding: 0; list-style: none; }
   .fixed-bar { display: none; }
   .footer-links { grid-auto-flow: column; justify-content: start; gap: 28px; }
 }
+
+/* レッスンスケジュール（Googleカレンダー埋め込み）：スマホは予定リスト、PCは月表示 */
+.calendar-frame { max-width: 960px; margin: 32px auto 0; background: var(--white); border: 1px solid var(--line); border-radius: 6px; padding: 8px; }
+.calendar-frame iframe { display: block; width: 100%; border: 0; }
+.cal-month { display: none !important; height: 640px; }
+.cal-agenda { height: 520px; }
+.calendar-link { text-align: center; margin-top: 16px; font-size: 14px; }
+.calendar-link a { color: var(--navy); font-weight: 700; text-decoration: underline; text-underline-offset: 4px; }
+.calendar-link .arrow { margin-left: 4px; }
+@media (min-width: 768px) {
+  .cal-month { display: block !important; }
+  .cal-agenda { display: none !important; }
+}
+.schedule + .teachers { border-top: 1px solid var(--line); }
+.section-title { white-space: nowrap; }
+.schedule .section-title { font-size: min(26px, 6.4vw); }
+@media (min-width: 900px) {
+  .schedule .section-title { font-size: 32px; }
+  .global-nav a { white-space: nowrap; }
+}
+/* メニューに「スケジュール」を足したので、900〜1099pxは詰めて1行に収める */
+@media (min-width: 900px) and (max-width: 1099px) {
+  .global-nav a { padding: 8px 7px; font-size: 13px; }
+  .global-nav .nav-cta { margin-left: 6px; padding: 10px 14px; }
+  .brand-en { display: none; }
+}
