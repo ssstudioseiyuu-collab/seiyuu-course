@@ -186,6 +186,7 @@ ol, ul { margin: 0; padding: 0; list-style: none; }
   box-shadow: 0 0 0 1px var(--line), 4px 4px 0 0 var(--gold);
 }
 .teacher-body { grid-area: body; align-self: center; }
+.teacher-badge { font-family: var(--serif); font-size: 13px; font-weight: 700; color: #9C7B43; letter-spacing: .08em; margin-bottom: 2px; }
 .teacher-name { font-family: var(--serif); font-size: 21px; color: var(--navy); letter-spacing: .06em; line-height: 1.4; }
 .teacher-class { font-size: 13px; font-weight: 700; color: var(--navy); margin-top: 6px; line-height: 1.5; }
 .teacher-class::before { content: ""; display: inline-block; width: 14px; height: 1px; background: var(--gold); vertical-align: middle; margin-right: 6px; }
