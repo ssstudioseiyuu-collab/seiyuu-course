@@ -328,3 +328,8 @@ ol, ul { margin: 0; padding: 0; list-style: none; }
   .global-nav .nav-cta { margin-left: 6px; padding: 10px 14px; }
   .brand-en { display: none; }
 }
+
+/* クラス名の横の「詳細はこちら」（発声・滑舌／表現基礎／ベーシック。2026-11-24 追加） */
+.class-name-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.detail-link { flex-shrink: 0; display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 700; color: var(--navy); text-decoration: none; border: 1px solid var(--navy); border-radius: 999px; padding: 4px 12px; line-height: 1.4; white-space: nowrap; transition: background .2s, color .2s; }
+.detail-link:hover { background: var(--navy); color: var(--white); }
