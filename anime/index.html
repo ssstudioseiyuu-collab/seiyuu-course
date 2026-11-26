@@ -68,7 +68,7 @@
         <img src="photos/lesson_hero-recording.jpg" alt="マイクの前で台本を読む収録風景" width="900" height="600">
       </figure>
       <figure class="hero-photo sub">
-        <img src="photos/lesson_hero-feedback.jpg" alt="講師のこぶしのぶゆきがフィードバックする様子" width="900" height="600">
+        <img src="photos/lesson_hero-feedback.jpg" alt="講師のこぶしのぶゆきとのディスカッションの様子" width="900" height="600">
       </figure>
     </div>
 
@@ -137,54 +137,55 @@
     <p class="section-eyebrow">LESSON FLOW</p>
     <h2 class="section-title">レッスンの進め方</h2>
     <div class="prose">
-      <p>事前に知らされる香盤表を元に、リハーサルから本番へと実践形式でレッスンを進めていきます。レッスン毎の香盤は、こぶし氏が受講生の皆さんが持つ課題に応じて作成したり、または敢えて自分たちで決めるように指示されることもあります。アフレコはリハーサル2回または1回と本番（収録）1回、その間にフィードバックを入れるという、実際の現場の進行に沿った流れでレッスンも進んで行きます。</p>
+      <p>事前に知らされる香盤表を元に、リハーサルから本番へと実践形式でレッスンを進めていきます。レッスン毎の香盤は、こぶし氏が受講生の皆さんが持つ課題に応じて作成したり、または敢えて自分たちで決めるように指示されることもあります。アフレコはリハーサル2回または1回と本番（収録）1回、その間にディスカッションを入れるという、実際の現場の進行に沿った流れでレッスンも進んで行きます。</p>
     </div>
 
-    <ol class="steps">
-      <li class="step">
-        <div class="step-head">
-          <span class="step-no">01</span>
-          <span class="step-en">PREPARATION</span>
-        </div>
+    <!-- 1回のレッスンの流れ（帯の大きさ＝かける時間のイメージ。声を出す工程は波形、ディスカッションは吹き出し） -->
+    <div class="track">
+      <div class="track-prep">
         <svg class="icon" viewBox="0 0 48 48" aria-hidden="true"><rect x="9" y="5" width="30" height="38" rx="2"/><path d="M15 14h18M15 21h18M15 28h12M15 35h8"/></svg>
-        <h3 class="step-title">香盤表</h3>
-        <p class="step-text">事前に知らされる香盤表を元に準備します。</p>
-        <svg class="step-wave" aria-hidden="true"><use href="#wave"/></svg>
-      </li>
-      <li class="step">
-        <div class="step-head">
-          <span class="step-no">02</span>
-          <span class="step-en">REHEARSAL</span>
-        </div>
-        <svg class="icon" viewBox="0 0 48 48" aria-hidden="true"><rect x="17" y="4" width="14" height="24" rx="7"/><path d="M11 22c0 7.5 5.8 13 13 13s13-5.5 13-13"/><path d="M24 35v8M16 43h16"/></svg>
-        <h3 class="step-title">リハーサル</h3>
-        <p class="step-text">リハーサルは2回または1回。</p>
-        <svg class="step-wave" aria-hidden="true"><use href="#wave"/></svg>
-      </li>
-      <li class="step">
-        <div class="step-head">
-          <span class="step-no">03</span>
-          <span class="step-en">FEEDBACK</span>
-        </div>
-        <svg class="icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 10h36v22H22l-9 8v-8H6z"/><path d="M14 18h20M14 24h12"/></svg>
-        <h3 class="step-title">フィードバック</h3>
-        <p class="step-text">リハーサル直後、自分の演技と徹底的に向き合います。</p>
-        <svg class="step-wave" aria-hidden="true"><use href="#wave"/></svg>
-      </li>
-      <li class="step">
-        <div class="step-head">
-          <span class="step-no">04</span>
-          <span class="step-en">RECORDING</span>
-        </div>
-        <svg class="icon" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18"/><circle cx="24" cy="24" r="7" class="fill"/></svg>
-        <h3 class="step-title">本番（収録）</h3>
-        <p class="step-text">本番（収録）1回。</p>
-        <svg class="step-wave" aria-hidden="true"><use href="#wave"/></svg>
-      </li>
-    </ol>
+        <p><span class="track-en">PREPARATION</span><span class="track-prep-title">事前準備：香盤表</span><span class="track-prep-text">事前に知らされる香盤表を元に準備して、レッスンに臨みます。</span></p>
+      </div>
+
+      <ol class="track-row">
+        <li class="seg is-voice" style="--t:10">
+          <span class="seg-no">01</span>
+          <span class="track-en">REHEARSAL</span>
+          <h3 class="seg-title">リハ</h3>
+          <svg class="seg-wave" aria-hidden="true"><use href="#wave"/></svg>
+        </li>
+        <li class="seg is-talk is-main" style="--t:38">
+          <span class="seg-no">02</span>
+          <span class="track-en">DISCUSSION</span>
+          <h3 class="seg-title">ディスカッション</h3>
+          <p class="seg-text">リハーサル時の自分の演技がどうなっていたか、徹底的に向き合う時間。</p>
+          <svg class="seg-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M4 8h28v18H17l-7 6v-6H4z"/><path d="M36 16h8v18h-5v6l-7-6H20v-4"/></svg>
+        </li>
+        <li class="seg is-voice" style="--t:12">
+          <span class="seg-no">03</span>
+          <span class="track-en">REHEARSAL</span>
+          <h3 class="seg-title">本リハ</h3>
+          <svg class="seg-wave" aria-hidden="true"><use href="#wave"/></svg>
+        </li>
+        <li class="seg is-talk" style="--t:20">
+          <span class="seg-no">04</span>
+          <span class="track-en">DISCUSSION</span>
+          <h3 class="seg-title">ディスカッション</h3>
+          <svg class="seg-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M4 8h28v18H17l-7 6v-6H4z"/><path d="M36 16h8v18h-5v6l-7-6H20v-4"/></svg>
+        </li>
+        <li class="seg is-voice is-rec" style="--t:14">
+          <span class="seg-no">05</span>
+          <span class="track-en"><span class="rec-dot" aria-hidden="true"></span>RECORDING</span>
+          <h3 class="seg-title">本番</h3>
+          <svg class="seg-wave" aria-hidden="true"><use href="#wave"/></svg>
+        </li>
+      </ol>
+      <div class="track-axis" aria-hidden="true"><span>19:00</span><span>21:00</span></div>
+      <p class="track-note">※帯の大きさは、それぞれにかける時間のイメージです。</p>
+    </div>
 
     <div class="prose">
-      <p>リハーサル直後のフィードバックは、リハーサル時の自分の演技がどうなっていたか、徹底的に向き合う時間。演じる上での役の目的や演出の意図を理解するのはもちろんのこと、アニメ作品の系統によっては、対象や目的も変わってきます。如何に対象となる視聴者に響く演技ができるか、それには演じる役の目的と演出側の意図をすぐに理解し、フィードバックに対し、プロとしてすぐに対応できる力が必要になります。<strong>プロとしてすぐに現場に立てる力が鍛えられます！</strong></p>
+      <p>リハーサル直後のディスカッションは、リハーサル時の自分の演技がどうなっていたか、徹底的に向き合う時間。演じる上での役の目的や演出の意図を理解するのはもちろんのこと、アニメ作品の系統によっては、対象や目的も変わってきます。如何に対象となる視聴者に響く演技ができるか、それには演じる役の目的と演出側の意図をすぐに理解し、ディスカッションに対し、プロとしてすぐに対応できる力が必要になります。<strong>プロとしてすぐに現場に立てる力が鍛えられます！</strong></p>
     </div>
 
     <div class="info-box">
@@ -192,7 +193,7 @@
         <h3 class="info-label">カリキュラム内容</h3>
         <div>
           <p>シーン抜粋台本または30分アニメ片方のパート（AパートorBパート）。</p>
-          <p class="flow-line">リハ → フィードバック → 本リハ → フィードバック → 本番</p>
+          <p class="flow-line">リハ → ディスカッション → 本リハ → ディスカッション → 本番</p>
           <p class="note">※作品によって収録する場合としない場合があります。</p>
         </div>
       </div>
