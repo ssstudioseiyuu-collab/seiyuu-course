@@ -331,5 +331,6 @@ ol, ul { margin: 0; padding: 0; list-style: none; }
 
 /* クラス名の横の「詳細はこちら」（発声・滑舌／表現基礎／ベーシック。2026-11-24 追加） */
 .class-name-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
-.detail-link { flex-shrink: 0; display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 700; color: var(--navy); text-decoration: none; border: 1px solid var(--navy); border-radius: 999px; padding: 4px 12px; line-height: 1.4; white-space: nowrap; transition: background .2s, color .2s; }
-.detail-link:hover { background: var(--navy); color: var(--white); }
+/* 2026-11-26 目立つようにゴールドで塗りつぶし（4クラス共通） */
+.detail-link { flex-shrink: 0; display: inline-flex; align-items: center; gap: 4px; font-size: 13px; font-weight: 700; color: var(--navy); background: var(--gold); text-decoration: none; border: 1px solid var(--gold); border-radius: 999px; padding: 5px 14px; line-height: 1.4; white-space: nowrap; box-shadow: 0 2px 6px rgba(15,23,42,.15); transition: background .2s, color .2s, border-color .2s; }
+.detail-link:hover { background: var(--navy); border-color: var(--navy); color: var(--white); }
